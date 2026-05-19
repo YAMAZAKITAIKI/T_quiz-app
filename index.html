@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>画像クイズ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>画像クイズ</h1>
+
+    <div id="startScreen">
+        <button id="startBtn">開始</button>
+    </div>
+
+    <div id="gameScreen" style="display:none;">
+        <p class="questionText">この写真に当てはまるのを以下の3つから選べ</p>
+
+        <div class="questionArea">
+            <img id="questionImage" src="">
+        </div>
+
+        <div id="result"></div>
+
+        <div class="answers" id="answers"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
