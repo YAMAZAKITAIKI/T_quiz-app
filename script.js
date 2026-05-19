@@ -7,7 +7,11 @@ const questionImage = document.getElementById("questionImage");
 const answersDiv = document.getElementById("answers");
 const resultDiv = document.getElementById("result");
 
-const numbers = [4,5,6,7,8,9,10,11,12,13];
+const numbers = [];
+
+for(let i = 1; i <= 100; i++){
+    numbers.push(i);
+}
 
 startBtn.addEventListener("click", () => {
     startScreen.style.display = "none";
